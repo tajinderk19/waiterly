@@ -43,6 +43,8 @@ const Menu = (props) => {
           <Button>Go somewhere</Button>
         </Card>
       </Col>
+      <br/>
+      <br/>
       <Col sm="4">
         <Card body>
           <CardTitle>Special Title Treatment</CardTitle>
