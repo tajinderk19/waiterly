@@ -1,8 +1,42 @@
-import React from 'react';
-import { Card, Button, CardTitle, CardBody,CardLink, CardText, Row, Col } from 'reactstrap';
+import React, {Component} from 'react';
+import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Card, Button, CardTitle, CardBody,CardLink, CardText, Row, Col } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Menu = (props) => {
+class MainMenu extends Component {
+  constructor(props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      dropdownOpen: false
+    };
+  }
+
+  toggle() {
+    this.setState(prevState => ({
+      dropdownOpen: !prevState.dropdownOpen
+    }));
+  }
+render(){
   return (
+<div>
+       <Row>
+          <Col xs="3">
+          <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+        <DropdownToggle color="warning" caret>
+        Fliter by &nbsp; 
+        </DropdownToggle>
+        <DropdownMenu>
+          <DropdownItem >Main course</DropdownItem>
+          <DropdownItem>Chinese</DropdownItem>
+          <DropdownItem>Shakes</DropdownItem>
+          <DropdownItem divider />
+          <DropdownItem>Special</DropdownItem>
+        </DropdownMenu>
+      </Dropdown>
+    
+    </Col>
+    </Row>&nbsp; &nbsp; &nbsp; &nbsp; 
     <Row>
       <Col sm="4">
         <Card body>
@@ -84,12 +118,11 @@ const Menu = (props) => {
           <Button>Go somewhere</Button>
         </Card>
       </Col>
-     
-     
     </Row>
+  </div>
      
   );
 };
 
-
-export default Menu;
+}
+export default MainMenu;

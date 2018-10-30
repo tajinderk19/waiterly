@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import AppNavbar from './components/AppNavbar';
 import Footer from './components/Footer';
-import Header from './components/Header';
-import Featured from './components/Featured';
-import Menu from './components/Menu';
+import Main from './Main';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
@@ -12,17 +10,10 @@ class App extends Component {
     return (
       <div className="App">
        <AppNavbar />
-       <Header />
-       <br/>
-       <br/>
-       <Menu />
-       <br/>
-       <br/>
-       <Featured />
-       <br/>
-       <br/>
+       <Main />
        <Footer />
       </div>
+  
     );
   }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Button, CardHeader, CardFooter, CardBody, CardImg, Row, Col,
   CardTitle, CardText } from 'reactstrap';
 
-const Feature = (props) => {
+const Featured = (props) => {
   return (
     <div>
         <br/>
@@ -53,4 +53,4 @@ const Feature = (props) => {
   );
 };
 
-export default Feature;
+export default Featured;
