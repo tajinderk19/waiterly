@@ -1,3 +1,9 @@
-to run:
-npm start
-localhost:8015
+
+
+![Image](https://github.com/techquee/waiterly/blob/master/client/images/image%20(2).png)
+
+![Image](https://github.com/techquee/waiterly/blob/master/client/images/image%20(1).png)
+
+![Image](https://github.com/techquee/waiterly/blob/master/client/images/image%20(3).png)
+
+![Image](https://github.com/techquee/waiterly/blob/master/client/images/image.png)
