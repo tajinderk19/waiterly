@@ -1,5 +1,5 @@
 
-##Purpose
+## Purpose
 
 With the recent revolutionising of food and beverages industry due to the growing population, 
 this product would offer at hand a very playful with equal useful solution in digitizing and reducing the hassle market area in here.
@@ -9,7 +9,7 @@ this product would offer at hand a very playful with equal useful solution in di
 - Digitise the complete process from ordering to payment, saves time.
 - Ensures growth in the ever involving food and beverages industry.
 
-##The technology used:
+## Technology used:
 
 - MERN 
 - Socket.io 
@@ -18,7 +18,7 @@ this product would offer at hand a very playful with equal useful solution in di
 - SCSS
 - Reactrap(library)
 
-##Working
+## Working
 
 1. QR code scan. Table engaged showed on reception UI. 
 2. App opens, order your food quickly.
