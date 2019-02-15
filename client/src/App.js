@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import AppNavbar from './components/AppNavbar';
 import Footer from './components/Footer';
 import Main from './Main';
@@ -12,8 +11,7 @@ class App extends Component {
        <AppNavbar />
        <Main />
        <Footer />
-      </div>
-  
+      </div> 
     );
   }
 }

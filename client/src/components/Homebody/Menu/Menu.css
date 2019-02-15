@@ -1,0 +1,26 @@
+.image{
+    background-image:url("https://i1.wp.com/www.freemealplan.net/wp-content/uploads/2017/05/Food-Free-Meal-Plan.jpg");
+    padding:40px;
+    background-repeat:no-repeat;
+}
+h3{
+    color:white;
+    font-family: monospace;
+    letter-spacing: 2px;
+    position:relative;
+}
+span{
+    color:white;
+}
+h6,h5{
+    color:black !important;
+}
+center{
+    padding:20px;
+    font-size:50px;
+    background-color: beige;
+    font-family: monospace;
+}
+.Item img{
+    transform: rotate(360deg);
+}

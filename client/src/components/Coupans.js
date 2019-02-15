@@ -1,18 +1,37 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Card, Row, Col, Button, CardTitle, CardText } from 'reactstrap';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-class Coupans extends Component {
-  render() {
-    return (
-      <div className="container">
+const Coupans = (props) => {
+  return (
+    <div>
+    <Row>
+      <Col sm="4">
+      <Card body outline color="secondary">
+        <CardTitle>Special Title Treatment</CardTitle>
+        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+        <Button>Button</Button>
+      </Card>
+      </Col>
+      <Col sm="4">
+      <Card body outline color="primary">
+        <CardTitle>Special Title Treatment</CardTitle>
+        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+        <Button color="secondary">Button</Button>
+      </Card>
+      </Col>
+      <Col sm="4">
+      <Card body outline color="success">
+        <CardTitle>Special Title Treatment</CardTitle>
+        <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+        <Button color="secondary">Button</Button>
+      </Card>
+      </Col>
     
-       <p>I am here.</p>
-     
+      </Row>
+      <br/>
+      <br/>
       </div>
-  
-    );
-  }
-}
+  );
+};
 
 export default Coupans;

@@ -1,55 +1,72 @@
 import React from 'react';
-import { Card, Button, CardHeader, CardFooter, CardBody, CardImg, Row, Col,
-  CardTitle, CardText } from 'reactstrap';
+import { Card, Button, CardHeader, CardBody, CardImg, Row, Col, CardText } from 'reactstrap';
+import giphy from '../../assets/giphy.gif'; 
+import donut from '../../assets/donut.gif';
 
 const Featured = (props) => {
   return (
-    <div>
+    <div className="container">
         <br/>
         <h3> Featured </h3>
         <br/>
-        <Row>
-            <Col sm="4">
+        
+  <Row>
+      <Col sm="4">
       <Card body inverse color="warning">
-        <CardHeader>Header</CardHeader>
+        <CardHeader>Pepperoni Pizza</CardHeader>
         <CardBody>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-    
-          <CardTitle>Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Go somewhere</Button>
+        <CardImg top width="100%" src="https://res.cloudinary.com/dic8veaeg/image/upload/v1541868424/Pepperoni_pizza.gif" alt="Card image cap" />
+          &nbsp;&nbsp;
+          <CardText>Tomato, onion, green capsicum, jalapenos, fresh mushroom, baby corn, cilantro, garlic, black olives, red paprika, feta cottage cheese, oven roasted red peppers and cheese</CardText>
+          &nbsp;&nbsp;
+          <Button>Buy this</Button>
         </CardBody>
-        <CardFooter>Footer</CardFooter>
       </Card>
       </Col>
+      
       <Col sm="4">
       <Card body inverse color="danger">
-        <CardHeader>Header</CardHeader>
+        <CardHeader>Chocolate Donut</CardHeader>
         <CardBody>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-    
-          <CardTitle>Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Go somewhere</Button>
+        <CardImg top width="100%" src={donut} alt="Card image cap" />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <CardText>Made with real cocoa and spices like: cinnamon, cardamom and nutmeg, this seasoning tastes like a fresh, warm chocolate donut in a bottle</CardText>
+          <Button>Buy this</Button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
         </CardBody>
-        <CardFooter>Footer</CardFooter>
       </Card>
       </Col>
+      
       <Col sm="4">
       <Card body inverse color="info">
-        <CardHeader>Header</CardHeader>
+        <CardHeader>Crispy Veg Burger</CardHeader>
         <CardBody>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-    
-          <CardTitle>Special Title Treatment</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Go somewhere</Button>
+        <CardImg top width="100%" src="https://res.cloudinary.com/dic8veaeg/image/upload/v1541868859/Cheeseburger.gif" alt="Card image cap" />
+          &nbsp;&nbsp;
+          <CardText>Pure-veg burger is stuffed with goodness of wholesome potatoes, Garnished with sliced onions, the patty is served in a 4-inch sesame-seed bun.</CardText>
+          <Button>Buy This</Button>
         </CardBody>
-        <CardFooter>Footer</CardFooter>
       </Card>
       </Col>
-      </Row>
+  
+  </Row>
+    <br/>  <br/>
+   
+  <center>
+    <div className="row">
+    <div className="col-sm-6">
+    <br/>
+     Let's Order something, I am hungry.
     </div>
+    
+    <div className="col-sm-6">
+    <img src={giphy} alt="food"/>
+  </div>
+    </div>
+  </center>
+
+</div>
+  
   );
 };
 

@@ -10,20 +10,29 @@ import {
 const items = [
   {
     id: 1,
+    src:'https://nice-branding.com/wp-content/uploads/2017/04/output_jVfEfz.gif',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
     id: 2,
+    src:'http://survivalchic.com/wp-content/uploads/2015/03/Jamies-italian-slideshare.gif',
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
   {
     id: 3,
+    src:'http://westchestersocialmedia.com/wp-content/uploads/2012/03/Simplicious-Feb-2012-178-proof.jpg',
     altText: 'Slide 3',
     caption: 'Slide 3'
   }
 ];
+
+const header = {
+  'backgroundSize':'cover',
+  height:'100%',
+  width:'100%'
+}
 
 class Header extends Component {
   constructor(props) {
@@ -73,6 +82,7 @@ class Header extends Component {
           onExiting={this.onExiting}
           onExited={this.onExited}
         >
+         <img src={item.src} style={header} alt={item.altText} />
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );

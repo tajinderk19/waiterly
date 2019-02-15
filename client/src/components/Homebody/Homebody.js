@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Featured from './Featured';
-import Menu from './Menu';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class HomeBody extends Component {
@@ -11,14 +10,12 @@ class HomeBody extends Component {
        <Header />
        <br/>
        <br/>
-       <Menu />
        <br/>
        <br/>
        <Featured />
        <br/>
        <br/>
       </div>
-  
     );
   }
 }
