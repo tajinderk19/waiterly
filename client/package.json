@@ -12,7 +12,7 @@
     "shopping",
     "cart"
   ],
-  "author": "Sivadass",
+  "author": "waiterly",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.1",
