@@ -34,8 +34,8 @@ this product would offer at hand a very playful with equal useful solution in di
 
 ![Image](https://github.com/techquee/waiterly/blob/master/client/images/image.png)
 
-![Image](https://github.com/techquee/waiterly/blob/master/client/images/Screenshot (12).png)
+![Image](https://github.com/techquee/waiterly/blob/master/client/images/Screenshot(12).png)
 
-![Image](https://github.com/techquee/waiterly/blob/master/client/images/Screenshot (11).png)
+![Image](https://github.com/techquee/waiterly/blob/master/client/images/Screenshot(11).png)
 
 
